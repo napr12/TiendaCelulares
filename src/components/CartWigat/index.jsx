@@ -5,7 +5,7 @@ const CartWidget= ()=>{
     const [cant,setCant] = useState(0);
     useEffect(()=>{
         console.log("Agrega");
-    },)
+    }, cant)
    
     return  (<>
                 <BsFillCartFill /> 
